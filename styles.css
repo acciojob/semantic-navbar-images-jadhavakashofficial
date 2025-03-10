@@ -1,2 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
 
-/* Your CSS Code here. */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  margin: 10px;
+  border: 2px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+}
